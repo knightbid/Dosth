@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@450;550;750&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-dot: "VT323", monospace;
+  
+  --color-nothing-black: #000000;
+  --color-nothing-white: #ffffff;
+  --color-nothing-red: #ff2a00;
+  --color-nothing-gray-light: #f4f4f5;
+  --color-nothing-gray-dark: #18181b;
+}
+
+/* Custom Nothing Tech dotted background utility */
+.nothing-dotted-bg {
+  background-color: #fafafa;
+  background-image: radial-gradient(#e4e4e7 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.nothing-bordered {
+  border: 1.5px solid #000000;
+}
+
+.nothing-shadow {
+  box-shadow: 3px 3px 0px 0px #000000;
+}
+
+.nothing-shadow-sm {
+  box-shadow: 1.5px 1.5px 0px 0px #000000;
+}
+
+.nothing-shadow-red {
+  box-shadow: 3px 3px 0px 0px #ff2a00;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f4f4f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #000000;
+  border-radius: 9999px;
+}
+

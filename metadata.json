@@ -1,0 +1,6 @@
+{
+  "name": "To-Do List Đồng Bộ & Trợ Lý AI Lập Kế Hoạch",
+  "description": "Ứng dụng To-Do List hỗ trợ đồng bộ dữ liệu thời gian thực đa thiết bị và tích hợp trợ lý AI để phân tích tiến độ, phát hiện bất thường và hỗ trợ lập kế hoạch công việc hàng ngày hiệu quả.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
